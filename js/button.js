@@ -76,6 +76,7 @@
   // ========================
 
   function Plugin(option) {
+    var i = 55;
     return this.each(function () {
       var $this   = $(this)
       var data    = $this.data('bs.button')
